@@ -12,4 +12,6 @@ export class SmallCardComponent {
   photoAlt: string = '';
   @Input()
   cardTitle: string = '';
+  @Input()
+  Id: string = '0';
 }
